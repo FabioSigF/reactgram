@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  border-bottom: 1px solid #363636;
+  padding: .1em .1em;
+
+  &__links {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-right: 1rem;
+    }
+
+    span {
+      cursor: pointer;
+    }
+
+    svg {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.searchForm {
+  position: relative;
+  width: 20%;
+
+  svg {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+  }
+
+  input {
+    padding-left: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
